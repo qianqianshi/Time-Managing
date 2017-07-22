@@ -1,0 +1,38 @@
+/**index.wxss**/
+.header{
+  text-align: center;
+  font-size: 40rpx;
+  color: black;
+  margin-bottom: 40rpx;
+  width:100%;
+  position: relative;
+  height:100rpx;
+}
+.userinfo-nickname {
+  color: black;
+}
+.container{
+  background-repeat: repeat;
+  width:800rpx;
+  height:1200rpx;
+  position:fixed;
+  background-image:url('http://uploadpic.55.la/upload/temp/2017/07/10/17/20087118424874.png');
+}
+.input-wrap{  
+  margin: 20rpx 10rpx;
+}
+.btn{  
+  border-radius: 5px;
+  font-size: 30rpx;
+  line-height: 80rpx;
+  display: block;
+  background: #6fa6cf;
+}
+.mt{
+  margin-top: 100rpx;
+}
+.btn-save{
+  width:200rpx;
+  color: #fff;
+}
+

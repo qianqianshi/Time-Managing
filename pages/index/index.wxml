@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+
+<view style="width:170px;height:170px;background-image:url('http://uploadpic.55.la/upload/temp/2017/07/10/16/30946808318512.png')"mode="aspectFill"></view>
+  <view  bindtap="bindViewTap" class="header">    
+   欢迎使用！<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+ 
+  </view><view class="section">
+  <input value="{{userInput}}" bindinput='bindKeyInput'  confirm-type="done" focus="{{focus}}" />
+  <button bindtap="bindButtonTap"wx:if="{{inputValue.length==0}}">点击输入签名...</button>
+   <button bindtap="bindButtonTap"wx:else>{{inputValue}}</button>
+</view>
+   <view class="input-wrap mt" >
+    <button class="btn btn-save" bindtap="saveData">保存个签</button>
+      </view>
+  </view>
+ 

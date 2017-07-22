@@ -1,0 +1,61 @@
+/* pages/note/note.wxss */
+.container{
+  width:800rpx;
+  height:1200rpx;
+  position:fixed;
+}
+.banner {
+  width: 100%;
+}
+.list {
+  width: 100%;
+  margin: 10px auto;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+.list view {
+  padding: 2px;
+}
+.title {
+  padding: 5px;
+  font-size: 26px;
+   font-family: "华文新魏";
+  border-bottom: 1px solid #eee;
+}
+.content {
+ padding: 10px;
+ font-size: 20px;
+ font-family: "华文新魏";
+ border-bottom: 1px solid #eee;
+}
+.date {
+  border-top: 1px solid #eee;
+  font-size: 16px;
+}
+.scrollArea {
+  margin-bottom: 0rpx;
+  height: 380px;
+  width:100%;
+}
+.write-btn {
+  border-radius: 50%;
+  background-color:pink;
+  color: #fff;
+  position:fixed;
+  width: 150rpx;
+  height:150rpx;
+  padding: 10px;
+  font-size: 20px;
+  bottom: 0rpx;
+}
+.float-btn {
+  position: fixed;
+  background-color:pink;
+  color: #fff;
+  bottom: 70px;
+  right: 10px;
+  width: 80px;
+  height: 40px;
+  padding: 5px;
+  font-size: 20px;
+}
